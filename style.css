@@ -1,0 +1,640 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#headerDiv {
+    box-shadow: 0 3px 20px -3px #0000001c;
+}
+
+.padding {
+    padding: 0px 10px;
+}
+
+.hide {
+    display: none;
+}
+
+#pageOnenav {
+    display: flex;
+    justify-content: space-evenly;
+    place-items: center;
+}
+
+#pageOnenav img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+#pageOnenav p {
+    margin: 0;
+}
+
+#pageOnenav input {
+    width: 100%;
+    border-radius: 25px;
+    height: 35px;
+    border: 1px 1px 1px 0px solid black;
+}
+
+#pageOnenav div {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+#pageTwonav {
+    display: flex;
+    justify-content: left;
+    place-items: center;
+}
+
+#pageTwonav img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+#pageTwonav input {
+    width: 100%;
+    border-radius: 25px;
+    height: 35px;
+    border: 1px 1px 1px 0px solid black;
+}
+
+#pageTwonav div {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+#pageOnenav div {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+#pageThreenav {
+    display: flex;
+    justify-content: left;
+    place-items: center;
+}
+
+#pageThreenav img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+#filterSec {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    color: #3665F3;
+}
+
+#pageFourthnav {
+    display: flex;
+    justify-content: left;
+    place-items: center;
+}
+
+#pageFourthnav img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+#pageFourthnav input {
+    width: 100%;
+    border-radius: 25px;
+    height: 35px;
+    border: 1px 1px 1px 0px solid black;
+}
+
+#pageFourthnav div {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+#pageFourthnav {
+    display: flex;
+    justify-content: left;
+    place-items: center;
+}
+
+#pageFourthnav img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+#searchbar {
+    position: relative;
+}
+
+#searchbar input {
+    padding-left: 75px;
+    outline: none;
+    border: 1px solid;
+}
+
+#searchbar img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    position: absolute;
+    right: 4%;
+}
+
+#searchbar select {
+    position: absolute;
+    left: 0;
+    height: 35px;
+    border-radius: 20px;
+}
+
+#headings {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background: #8080802b;
+}
+
+#homepageHeadings {
+    text-align: center;
+    border-radius: 2px;
+    padding: 20px 30px;
+    background: #8080802b;
+    cursor: pointer;
+}
+
+.carousel-indicators li {
+    margin-right: 10px !important;
+}
+
+#expoloreHeadline {
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+
+.bordertop {
+    border-top: 1px dashed #000;
+    padding-top: 10px;
+    border-top-width: 2px;
+    border-color: #0091cb;
+}
+
+#expoloreHeadline p {
+    cursor: pointer;
+    color: #0091cb;
+    margin: 0;
+}
+
+#expoloreHeadline p:hover {
+    transform: scale(1.2);
+    transition: .3s ease-in-out;
+}
+
+#subText p {
+    border-bottom: 1px dashed #000;
+    padding-bottom: 10px;
+    border-bottom-width: 2px;
+    border-color: #0091cb;
+}
+
+#listItems ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    overflow: scroll;
+}
+
+#listItems ul::-webkit-scrollbar {
+    display: none;
+}
+
+#listItems ul {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+
+#listItems ul li {
+    min-width: 150px;
+    margin-right: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+#listItems ul li img {
+    width: 100%;
+}
+
+#listActions ul::-webkit-scrollbar {
+    display: none;
+}
+
+#listActions ul {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#listActions ul {
+    overflow: scroll;
+    display: flex;
+    padding: 0;
+}
+
+#listActions ul li {
+    margin-right: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+#listActions {
+    display: flex;
+}
+
+#listActions h5 {
+    margin: 0;
+}
+
+#finalListData ul li {
+    cursor: pointer;
+}
+
+#priceSec {
+    display: flex;
+    flex-direction: column;
+}
+
+#priceSec span {
+    opacity: .6;
+}
+
+#priceSec p {
+    color: red;
+}
+
+#listevents ul::-webkit-scrollbar {
+    display: none;
+}
+
+#listevents ul {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#listevents ul {
+    overflow: scroll;
+    display: flex;
+    padding: 0;
+}
+
+#listevents ul li {
+    min-width: 275px;
+    list-style: none;
+    padding: 10px;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+
+#listevents {
+    display: flex;
+}
+
+#listevents h5 {
+    margin: 0;
+}
+
+#ScheduleDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ScheduleDiv p {
+    font-weight: 600;
+}
+
+#userdetail {
+    display: flex;
+    place-items: center;
+}
+
+#userdetail img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#userIcon {
+    display: flex;
+    place-items: center;
+}
+
+#userIcon img {
+    margin-right: 10px;
+}
+
+#userIcon p {
+    margin: 0;
+    color: #1DDDC7;
+
+}
+
+#secondPage {
+    padding: 0px 30px;
+}
+
+#viewallItems ul {
+    display: flex;
+    list-style: none;
+}
+
+#viewallItems ul li {
+    margin-right: 10px;
+    cursor: pointer;
+    list-style: none;
+}
+
+#viewallCategories ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#viewallCategories ul li {
+    margin: 10px 10px 10px 0px;
+    cursor: pointer;
+    list-style: none;
+}
+
+#fourthPage {
+    /* box-shadow: 0 3px 20px -10px #0000003d; */
+}
+
+#listCatagories ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+#listCatagories ul li {
+    padding: 10px 30px;
+    border: 2px solid #b2aaaa;
+    border-radius: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#noofresuts {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+#listIcons {
+    box-shadow: 0 3px 20px -10px #0000003d;
+}
+
+#listIcons ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    box-shadow: 0 3px 20px -10px #0000003d;
+}
+
+#listIcons ul li {
+    margin-right: 15px;
+    list-style: none;
+}
+
+#listIcons ul li img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#buynow ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+#finalListData ul {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    justify-content: space-evenly;
+}
+
+#finalListData ul {
+    overflow: scroll;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+#finalListData ul li {
+    margin: 10px;
+    list-style: none;
+}
+
+#finalListData {
+    display: flex;
+}
+
+#finalListData h5 {
+    margin: 0;
+}
+
+/* #ThirdPage {
+    box-shadow: 0 3px 20px -3px #0000003d;
+} */
+
+.wrapper {
+    width: 70%;
+}
+
+
+.panel-heading {
+    padding: 0;
+    border: 0;
+}
+
+.panel-title>a,
+.panel-title>a:active {
+    display: block;
+    padding: 15px;
+    color: #555;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-decoration: none;
+}
+
+.panel-heading a:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    transition: all 0.5s;
+}
+
+.panel-heading.active a:before {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#buynow ul li {
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#listGroup ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#listGroup ul li {
+    width: 100%;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    list-style: none;
+}
+
+input::placeholder {
+    font-size: 12px;
+}
+
+#searchbar img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    position: absolute;
+    right: 5%;
+}
+
+#listofItems {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#listofItems:hover {
+    transform: scale(1.3);
+    transition: .3s ease-in-out;
+    text-decoration: none !important;
+}
+
+
+
+@media (max-width: 767px) {
+    #searchbar img {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+        position: absolute;
+        right: 10%;
+    }
+
+    input::placeholder {
+        font-size: 7px !important;
+    }
+
+    #searchbar input {
+        padding-left: 65px;
+    }
+
+    #pageOnenav img {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+
+    #pageOnenav {
+        display: flex;
+        justify-content: space-between;
+        place-items: center;
+    }
+
+    #filter {
+        display: none;
+    }
+
+    #searchIcon {
+        width: 20px !important;
+        height: 20px !important;
+        object-fit: contain;
+    }
+
+    #expoloreHeadline h1 {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    #subText {
+        margin-top: 10px;
+    }
+
+    #pageFourthnav {
+        display: flex;
+        justify-content: space-evenly;
+        place-items: center;
+    }
+
+    #finalpageIcons {
+        width: 30px !important;
+        height: 30px !important;
+        object-fit: contain;
+        cursor: pointer;
+    }
+
+    #filteredText {
+        font-size: 11px;
+    }
+
+    #noofresuts h3 {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    #listIcons ul {
+        padding: 0;
+        display: flex;
+        place-items: center;
+        justify-content: space-evenly;
+    }
+
+    #listCatagories ul li {
+        padding: 5px 10px;
+        border: 1px solid black;
+        border-radius: 15px;
+        margin-right: 15px;
+        font-size: 7px;
+    }
+
+    #listCatagories ul li img {
+        cursor: pointer;
+    }
+}
